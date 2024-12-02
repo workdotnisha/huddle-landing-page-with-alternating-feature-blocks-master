@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body {
+    padding: 2rem;
+} */
+header{
+    /* width: 110vh; */
+    background-color: #EDFBFE;
+    /* color: white; */
+    padding: 3rem 2rem;
+    background-image: url('images/bg-hero-desktop.svg');
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 6rem;
+    height: 2rem;
+}
+.navbar button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    color: #00252E;
+    font-size: 0.8rem;
+    font-weight: 600;
+    box-shadow: 2px 2px 15px rgba(62, 62, 62, 0.5);
+}
+.home-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0 0 0;
+}
+.home-content{
+    width: 80%;
+}
+.home-content h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #00252E;
+    margin-bottom: 2rem;
+}
+.home-content p{
+    font-size: 1rem;
+    color: #00252E;
+    margin-bottom: 2rem;
+}
+.home-page button{
+    background-color: #FE52C0;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 2px 2px 15px rgba(62, 62, 62, 0.5);
+    margin: 4rem 0;
+}
+.home-image img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px ;
+}
+section{
+    padding: 4rem 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto;
+}
+.Card-grow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0 0 0;
+    
+}
